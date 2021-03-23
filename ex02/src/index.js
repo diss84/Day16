@@ -14,7 +14,7 @@ class  Book {
    // Only change code above this line
 }
 const littlePrince = new Book("Le Petit Prince");
-console.log(littlePrince.title);
+console.log(littlePrince._title);
 littlePrince.title = "Le Petit Prince"
-console.log(littlePrince.title)
+console.log(littlePrince._title)
 module.exports = Book;
