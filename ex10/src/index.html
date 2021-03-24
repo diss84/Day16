@@ -1,0 +1,79 @@
+
+
+<head>
+    <link rel="stylesheet" type="text/css" href="/ex10/src/index.css">
+    
+  </head>
+  
+  <body>
+    <div class="grid-container">
+      <nav id="navbar">
+        <header>Eloquent JavaScript</header>
+        <img src="https://eloquentjavascript.net/img/cover.jpg" alt="Eloquent Javascript">
+        <a href="#Introduction" class="nav-link" id="#introduction">Introduction</a>
+        <a href="#values_types_and_operators" class="nav-link" id="values_types_and_operators">Values, types, and operators</a>
+        <a href="#Functions" class="nav-link" id="#functions">Functions</a>
+        <a href="#program_structure" class="nav-link" id="#program_structure">Program structure</a>
+        <a href="#Objects_and_arrays" class="nav-link" id="object_and_arrays">Data Structures: Object and Arrays</a>
+        <a href="#higher_order_functions" class="nav-link" id="#higher_order_function">Higher order functions</a>
+        <img src="https://eloquentjavascript.net/img/cover.jpg" alt="Eloquent Javascript">
+      </nav>
+  
+      <main id="main-doc">
+        <section class="main-section" id="Introduction">
+          <header>Introduction</header>
+          <p>JavaScript is a cross-platform, object-oriented scripting language used to make webpages interactive (e.x. having complex animations, clickable buttons, popup menus, etc.). There are also more advanced server side versions of JavaScript such as
+            Node.Js which allow you to add more functionality to a website than simply downloading files (such as realtime collaboration between multiple computers). Inside a host environment (for example, a web browser), JavaScript can be connected to
+            the objects of its environment to provide programmatic control over them.</p>
+          <p>JavaScript contains a standard library of objects, such as Array, Date, and Math, and a core set of language elements such as operators, control structures, and statements.</p>
+        </section>
+        <section class="main-section" id="values_types_and_operators">
+          <header>Values, types, and operators</header>
+          <p>The statements for loops provided in JavaScript are:</p>
+          <ul>
+            <li>for statement</li>
+            <li>do...while statement</li>
+            <li>while statement</li>
+            <li>break statement</li>
+            <li>continue statement</li>
+          </ul>
+          <p>You can think of a loop as a computerized version of the game where you tell someone to take X steps in one direction then Y steps in another; for example, the idea "Go five steps to the east" could be expressed this way as a loop:</p>
+          <code>var step; 
+            
+  for (step = 0; step < 5; step++) {
+  // Runs 5 times, with values of step 0 through 4.
+    console.log('Walking east one step');
+  }</code>
+        </section>
+        <section class="main-section" id="Functions">
+          <header>Functions</header>
+          <p>Functions are one of the fundamental building blocks in JavaScript. A function is a JavaScript procedure—a set of statements that performs a task or calculates a value. To use a function, you must define it somewhere in the scope from which you
+            wish to call it.</p>
+          <p>For example, the following code defines a simple function named square:</p>
+          <code>function square(number) {
+    return number * number;
+  }</code>
+          <p>The statement return specifies the value returned by the function.</p>
+          <code>return number * number;</code>
+        </section>
+        <section class="main-section" id="program_structure">
+          <header>Program Structures</header>
+          <p>Regular expressions are patterns used to match character combinations in strings. In JavaScript, regular expressions are also objects. These patterns are used with the exec and test methods of RegExp, and with the match, replace, search, and split
+            methods of String. This chapter describes JavaScript regular expressions.</p>
+          <code>var re = /ab+c/;</code>
+        </section>
+        <section class="main-section" id="Objects">
+          <header>Objects</header>
+          <p>JavaScript is designed on a simple object-based paradigm. An object is a collection of properties, and a property is an association between a name (or key) and a value. A property's value can be a function, in which case the property is known
+            as a method. In addition to objects that are predefined in the browser, you can define your own objects. This chapter describes how to use objects, properties, functions, and methods, and how to create your own objects.</p>
+          <p>Objects in JavaScript, just as in many other programming languages, can be compared to objects in real life. The concept of objects in JavaScript can be understood with real life, tangible objects. In JavaScript, an object is a standalone entity,
+            with properties and type. Compare it with a cup, for example. A cup is an object, with properties. A cup has a color, a design, weight, a material it is made of, etc. The same way, JavaScript objects can have properties, which define their characteristics.</p>
+          <code>var myCar = new Object();
+  myCar.make = 'Ford';
+  myCar.model = 'Mustang';
+  myCar.year = 1969;</code>
+        </section>
+        
+      </main>
+    </div>
+  </body>
